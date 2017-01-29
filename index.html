@@ -11,8 +11,103 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+  
+    <style>
+      #icon img {
+      max-width: 120px;
+      border: 3px solid #fff;
+      border-radius: 100%;
+      margin-top: 10px;
+      }
+    
+      header {
+      background-image: url("https://scontent-nrt1-1.xx.fbcdn.net/v/t31.0-8/12491833_753205318145217_5247213197351322131_o.jpg?oh=5cdea59507740571438a125a16cb9be2&oe=591642AA");  
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      }
+      
+      nav {
+      text-align: center;
+      background-color: #fff;
+      padding: 20px 0 5px 0;
+      } 
+      
+      nav ul li{
+      margin: 0 20px;
+      display: inline-block;  
+      }
+      
+    </style>
+
   </head>
+  
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <div id="icon" class="text-center">
+        <img src="https://scontent.xx.fbcdn.net/v/t1.0-9/11053165_660443454088071_2342293673044448532_n.jpg?oh=4bff58ff237e0ae62c966d4541d9312a&oe=5909D185">
+        <h1 style="color: #fff; padding-bottom: 10px">マイキー</h1>
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <h2 class="text-center">About</h2>
+        <div class="col-lg-6">
+          <h3>自己紹介</h3>
+            <p class="table-reponsive">はじめまして、シーシャ（水タバコ）とメイドカフェが大好物のマイキーです。<br>
+            どちらも週1回通っていることはまだ誰にも言っていません。<br>
+            普段はクラウドファンディングの会社で開発ディレクションをしています。<br>
+            
+            </p>
+        </div>
+        <div class="col-lg-6">
+          <h3>経歴</h3>
+            <div class="table-reponsive">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td>1992年12月23日</td>
+                    <td>北海道札幌市で誕生</td>
+                  </tr>
+                  <tr>
+                    <td>2013年3月</td>
+                    <td>北海道大学法学部に入学</td>
+                  </tr>
+                  <tr>
+                    <td>2015年9月~2016年2月</td>
+                    <td>ベトナムに留学</td>
+                  </tr>
+                  <tr>
+                    <td>2016年3月</td>
+                    <td>きびだんご株式会社にUI/UXディレクターとして入社</td>
+                  </tr>
+                  <tr>
+                    <td>2017年1月</td>
+                    <td>メイド検索サイト「Maidfan」を制作開始</td>
+                  </tr>
+                </tbody>
+              </table> 
+          </div>
+        </div>
+        <div class="col-lg-6">      
+          <h3>リンク</h3>
+            <ul class="list-unstyled">
+              <a href="https://www.facebook.com/maikit"><li style="margin-bottom: 10px"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</li></a>
+              <a href="https://maidfan.herokuapp.com/"><li><i class="fa fa-desktop" aria-hidden="true"></i> Maidfan</li></a>
+            </ul>
+        </div>
+      </section>
+    </div>
+        
+  
+      
   </body>
 </html>
